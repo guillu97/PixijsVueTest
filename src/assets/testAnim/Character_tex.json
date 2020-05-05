@@ -1,0 +1,184 @@
+{
+    "width": 512,
+    "SubTexture": [
+        {
+            "frameWidth": 330,
+            "y": 314,
+            "frameHeight": 658,
+            "width": 96,
+            "frameX": -88,
+            "height": 76,
+            "name": "Belly",
+            "frameY": -332,
+            "x": 317
+        },
+        {
+            "frameWidth": 330,
+            "y": 305,
+            "frameHeight": 658,
+            "width": 197,
+            "frameX": -78,
+            "height": 210,
+            "name": "Head",
+            "frameY": -38,
+            "x": 1
+        },
+        {
+            "frameWidth": 330,
+            "y": 392,
+            "frameHeight": 658,
+            "width": 71,
+            "frameX": -192,
+            "height": 80,
+            "name": "LeftArm",
+            "frameY": -246,
+            "x": 317
+        },
+        {
+            "frameWidth": 330,
+            "y": 205,
+            "frameHeight": 658,
+            "width": 75,
+            "frameX": -146,
+            "height": 107,
+            "name": "LeftBottomFoot",
+            "frameY": -487,
+            "x": 397
+        },
+        {
+            "frameWidth": 330,
+            "y": 102,
+            "frameHeight": 658,
+            "width": 86,
+            "frameX": -159,
+            "height": 101,
+            "name": "LeftFoot",
+            "frameY": -557,
+            "x": 397
+        },
+        {
+            "frameWidth": 330,
+            "y": 442,
+            "frameHeight": 658,
+            "width": 90,
+            "frameX": -180,
+            "height": 63,
+            "name": "LeftForearm",
+            "frameY": -315,
+            "x": 390
+        },
+        {
+            "frameWidth": 330,
+            "y": 566,
+            "frameHeight": 658,
+            "width": 69,
+            "frameX": -127,
+            "height": 64,
+            "name": "LeftHand",
+            "frameY": -324,
+            "x": 255
+        },
+        {
+            "frameWidth": 330,
+            "y": 314,
+            "frameHeight": 658,
+            "width": 57,
+            "frameX": -133,
+            "height": 126,
+            "name": "LeftLeg",
+            "frameY": -383,
+            "x": 415
+        },
+        {
+            "frameWidth": 330,
+            "y": 474,
+            "frameHeight": 658,
+            "width": 59,
+            "frameX": -107,
+            "height": 90,
+            "name": "RightArm",
+            "frameY": -244,
+            "x": 262
+        },
+        {
+            "frameWidth": 330,
+            "y": 409,
+            "frameHeight": 658,
+            "width": 60,
+            "frameX": -85,
+            "height": 94,
+            "name": "RightBottomLeg",
+            "frameY": -444,
+            "x": 200
+        },
+        {
+            "frameWidth": 330,
+            "y": 1,
+            "frameHeight": 658,
+            "width": 112,
+            "frameX": -54,
+            "height": 99,
+            "name": "RightFoot",
+            "frameY": -498,
+            "x": 397
+        },
+        {
+            "frameWidth": 330,
+            "y": 409,
+            "frameHeight": 658,
+            "width": 49,
+            "frameX": -81,
+            "height": 51,
+            "name": "RightForearm",
+            "frameY": -319,
+            "x": 262
+        },
+        {
+            "frameWidth": 330,
+            "y": 474,
+            "frameHeight": 658,
+            "width": 41,
+            "frameX": -60,
+            "height": 57,
+            "name": "RightHand",
+            "frameY": -364,
+            "x": 323
+        },
+        {
+            "frameWidth": 330,
+            "y": 507,
+            "frameHeight": 658,
+            "width": 53,
+            "frameX": -84,
+            "height": 100,
+            "name": "RightLeg",
+            "frameY": -370,
+            "x": 200
+        },
+        {
+            "frameWidth": 330,
+            "y": 305,
+            "frameHeight": 658,
+            "width": 115,
+            "frameX": -101,
+            "height": 102,
+            "name": "Torso",
+            "frameY": -239,
+            "x": 200
+        },
+        {
+            "frameWidth": 458,
+            "y": 1,
+            "frameHeight": 458,
+            "width": 394,
+            "frameX": -34,
+            "height": 302,
+            "name": "Knife",
+            "frameY": -75,
+            "x": 1
+        }
+    ],
+    "height": 1024,
+    "name": "Character",
+    "imagePath": "Character_tex.png"
+}
