@@ -49,6 +49,7 @@
             />
             <h1>Example 5</h1>
             <DragonBones v-bind:component_id="get_component_index()" />
+            <DragonBones v-bind:component_id="get_component_index()" />
         </div>
     </div>
 </template>

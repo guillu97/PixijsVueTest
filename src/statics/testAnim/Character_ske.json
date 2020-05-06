@@ -1,0 +1,809 @@
+{
+    "frameRate": 24,
+    "name": "Character",
+    "version": "5.5",
+    "compatibleVersion": "5.5",
+    "armature": [
+        {
+            "type": "Armature",
+            "frameRate": 24,
+            "name": "Armature",
+            "aabb": {
+                "x": -263.41,
+                "y": -1020.14,
+                "width": 474.12,
+                "height": 761.42
+            },
+            "bone": [
+                {
+                    "name": "root"
+                },
+                {
+                    "length": 177,
+                    "name": "bone",
+                    "parent": "root",
+                    "transform": {
+                        "x": -55.6,
+                        "y": -552.8,
+                        "skX": -73.7527,
+                        "skY": -73.7527
+                    }
+                },
+                {
+                    "length": 61,
+                    "name": "Belly",
+                    "parent": "bone",
+                    "transform": {
+                        "x": 5.3322,
+                        "y": -0.8248,
+                        "skX": -20.0058,
+                        "skY": -20.0058
+                    }
+                },
+                {
+                    "length": 105,
+                    "name": "Torso",
+                    "parent": "bone",
+                    "transform": {
+                        "x": 70.1971,
+                        "y": -22.5402,
+                        "skX": 13.0927,
+                        "skY": 13.0927
+                    }
+                },
+                {
+                    "length": 213,
+                    "name": "Head",
+                    "parent": "Torso",
+                    "transform": {
+                        "x": 107.0738,
+                        "y": -2.369,
+                        "skX": -24.12,
+                        "skY": -24.12
+                    }
+                },
+                {
+                    "length": 90,
+                    "name": "RightArm",
+                    "parent": "Torso",
+                    "transform": {
+                        "x": 83.2831,
+                        "y": -28.3511,
+                        "skX": -163.2257,
+                        "skY": -163.2257
+                    }
+                },
+                {
+                    "length": 91,
+                    "name": "RightLeg",
+                    "parent": "Belly",
+                    "transform": {
+                        "x": 15.463,
+                        "y": -28.6758,
+                        "skX": -146.8311,
+                        "skY": -146.8311
+                    }
+                },
+                {
+                    "length": 116,
+                    "name": "LeftLeg",
+                    "parent": "Belly",
+                    "transform": {
+                        "x": 8.016,
+                        "y": 19.976,
+                        "skX": 161.3638,
+                        "skY": 161.3638
+                    }
+                },
+                {
+                    "length": 83,
+                    "name": "LeftArm",
+                    "parent": "Torso",
+                    "transform": {
+                        "x": 113.6605,
+                        "y": 38.8395,
+                        "skX": 162.0928,
+                        "skY": 162.0928
+                    }
+                },
+                {
+                    "length": 104,
+                    "name": "LeftBottomLeg",
+                    "parent": "LeftLeg",
+                    "transform": {
+                        "x": 108.6117,
+                        "y": 1.7963,
+                        "skX": -18.6556,
+                        "skY": -18.6556
+                    }
+                },
+                {
+                    "length": 53,
+                    "name": "RightForearm",
+                    "parent": "RightArm",
+                    "transform": {
+                        "x": 92.5275,
+                        "y": 0.5293,
+                        "skX": 63.6987,
+                        "skY": 63.6987
+                    }
+                },
+                {
+                    "length": 88,
+                    "name": "LeftForearm",
+                    "parent": "LeftArm",
+                    "transform": {
+                        "x": 86.0064,
+                        "y": -11.8184,
+                        "skX": 99.1038,
+                        "skY": 99.1038
+                    }
+                },
+                {
+                    "length": 89,
+                    "name": "RightBottomLeg",
+                    "parent": "RightLeg",
+                    "transform": {
+                        "x": 81.9307,
+                        "y": -1.069,
+                        "skX": -27.865,
+                        "skY": -27.865
+                    }
+                },
+                {
+                    "length": 48,
+                    "name": "RightHand",
+                    "parent": "RightForearm",
+                    "transform": {
+                        "x": 48.9793,
+                        "y": -0.9251,
+                        "skX": -9.5037,
+                        "skY": -9.5037
+                    }
+                },
+                {
+                    "length": 84,
+                    "name": "LeftFoot",
+                    "parent": "LeftBottomLeg",
+                    "transform": {
+                        "x": 92.8261,
+                        "y": -1.6244,
+                        "skX": 24.1794,
+                        "skY": 24.1794
+                    }
+                },
+                {
+                    "length": 101,
+                    "name": "RightFoot",
+                    "parent": "RightBottomLeg",
+                    "transform": {
+                        "x": 80.2535,
+                        "y": -9.348,
+                        "skX": 51.5022,
+                        "skY": 51.5022
+                    }
+                },
+                {
+                    "length": 44,
+                    "name": "LeftHand",
+                    "parent": "LeftForearm",
+                    "transform": {
+                        "x": 86.9982,
+                        "y": 4.9348,
+                        "skX": 34.0855,
+                        "skY": 34.0855
+                    }
+                },
+                {
+                    "length": 452,
+                    "name": "Knife",
+                    "parent": "LeftHand",
+                    "transform": {
+                        "x": 23.3061,
+                        "y": -14.6079,
+                        "skX": 96.0572,
+                        "skY": 96.0572,
+                        "scX": 0.3808,
+                        "scY": 0.3808
+                    }
+                }
+            ],
+            "slot": [
+                {
+                    "name": "Belly",
+                    "parent": "Belly"
+                },
+                {
+                    "name": "Head",
+                    "parent": "Head"
+                },
+                {
+                    "name": "LeftArm",
+                    "parent": "LeftArm"
+                },
+                {
+                    "name": "LeftBottomLeg",
+                    "parent": "LeftBottomLeg"
+                },
+                {
+                    "name": "LeftFoot",
+                    "parent": "LeftFoot"
+                },
+                {
+                    "name": "LeftForearm",
+                    "parent": "LeftForearm"
+                },
+                {
+                    "name": "LeftHand",
+                    "parent": "LeftHand"
+                },
+                {
+                    "name": "LeftLeg",
+                    "parent": "LeftLeg"
+                },
+                {
+                    "name": "RightArm",
+                    "parent": "RightArm"
+                },
+                {
+                    "name": "RightBottomLeg",
+                    "parent": "RightBottomLeg"
+                },
+                {
+                    "name": "RightFoot",
+                    "parent": "RightFoot"
+                },
+                {
+                    "name": "RightForearm",
+                    "parent": "RightForearm"
+                },
+                {
+                    "name": "RightHand",
+                    "parent": "RightHand"
+                },
+                {
+                    "name": "RightLeg",
+                    "parent": "RightLeg"
+                },
+                {
+                    "name": "Torso",
+                    "parent": "Torso"
+                },
+                {
+                    "name": "Knife",
+                    "parent": "Knife"
+                }
+            ],
+            "skin": [
+                {
+                    "slot": [
+                        {
+                            "name": "RightForearm",
+                            "display": [
+                                {
+                                    "name": "RightForearm",
+                                    "transform": {
+                                        "x": -24.71,
+                                        "y": -38.62,
+                                        "skX": -128.99,
+                                        "skY": -128.99
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "LeftFoot",
+                            "display": [
+                                {
+                                    "name": "LeftFoot",
+                                    "transform": {
+                                        "x": -233.18,
+                                        "y": 62.43,
+                                        "skX": -95.84,
+                                        "skY": -95.84
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "RightLeg",
+                            "display": [
+                                {
+                                    "name": "RightLeg",
+                                    "transform": {
+                                        "x": -48.2,
+                                        "y": -52.88,
+                                        "skX": -92.6,
+                                        "skY": -92.6
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "LeftHand",
+                            "display": [
+                                {
+                                    "name": "LeftHand",
+                                    "transform": {
+                                        "x": 27.74,
+                                        "y": 23.27,
+                                        "skX": 172.84,
+                                        "skY": 172.84
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "RightArm",
+                            "display": [
+                                {
+                                    "name": "RightArm",
+                                    "transform": {
+                                        "x": 67.7,
+                                        "y": -46.78,
+                                        "skX": -116.04,
+                                        "skY": -116.04
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Head",
+                            "display": [
+                                {
+                                    "name": "Head",
+                                    "transform": {
+                                        "x": -81.72,
+                                        "y": 6.73,
+                                        "skX": 84.78,
+                                        "skY": 84.78
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Knife",
+                            "display": [
+                                {
+                                    "name": "Knife",
+                                    "transform": {
+                                        "x": 218.92,
+                                        "y": 0.41,
+                                        "skX": 144.89,
+                                        "skY": 144.89
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "RightFoot",
+                            "display": [
+                                {
+                                    "name": "RightFoot",
+                                    "transform": {
+                                        "x": -147.47,
+                                        "y": 100.08,
+                                        "skX": -131.98,
+                                        "skY": -131.98
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "LeftBottomLeg",
+                            "display": [
+                                {
+                                    "name": "LeftBottomLeg",
+                                    "transform": {
+                                        "x": -155.77,
+                                        "y": -48.32,
+                                        "skX": -71.48,
+                                        "skY": -71.48
+                                    },
+                                    "path": "LeftBottomFoot"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "RightHand",
+                            "display": [
+                                {
+                                    "name": "RightHand",
+                                    "transform": {
+                                        "x": -71.21,
+                                        "y": -45.15,
+                                        "skX": -119.49,
+                                        "skY": -119.49
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "LeftForearm",
+                            "display": [
+                                {
+                                    "name": "LeftForearm",
+                                    "transform": {
+                                        "x": 90.53,
+                                        "y": 41.57,
+                                        "skX": -153.07,
+                                        "skY": -153.07
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Torso",
+                            "display": [
+                                {
+                                    "name": "Torso",
+                                    "transform": {
+                                        "x": 23.42,
+                                        "y": 33.13,
+                                        "skX": 60.66,
+                                        "skY": 60.66
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "LeftLeg",
+                            "display": [
+                                {
+                                    "name": "LeftLeg",
+                                    "transform": {
+                                        "x": -57.51,
+                                        "y": -21.19,
+                                        "skX": -81.2,
+                                        "skY": -81.2
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Belly",
+                            "display": [
+                                {
+                                    "name": "Belly",
+                                    "transform": {
+                                        "x": 66.16,
+                                        "y": 39.36,
+                                        "skX": 93.76,
+                                        "skY": 93.76
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "RightBottomLeg",
+                            "display": [
+                                {
+                                    "name": "RightBottomLeg",
+                                    "transform": {
+                                        "x": -105.25,
+                                        "y": -76.52,
+                                        "skX": -80.47,
+                                        "skY": -80.47
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "LeftArm",
+                            "display": [
+                                {
+                                    "name": "LeftArm",
+                                    "transform": {
+                                        "x": 38.97,
+                                        "y": 71.09,
+                                        "skX": -53.97,
+                                        "skY": -53.97
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "animation": [
+                {
+                    "duration": 22,
+                    "playTimes": 0,
+                    "name": "hurray",
+                    "bone": [
+                        {
+                            "name": "bone",
+                            "translateFrame": [
+                                {
+                                    "duration": 22,
+                                    "x": 12.37
+                                }
+                            ]
+                        },
+                        {
+                            "name": "LeftArm",
+                            "rotateFrame": [
+                                {
+                                    "duration": 12,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 10,
+                                    "rotate": -35.46
+                                }
+                            ]
+                        },
+                        {
+                            "name": "LeftForearm",
+                            "translateFrame": [
+                                {
+                                    "duration": 22,
+                                    "x": 0.32,
+                                    "y": 1.1
+                                }
+                            ],
+                            "rotateFrame": [
+                                {
+                                    "duration": 19,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 3,
+                                    "rotate": 145.49
+                                }
+                            ]
+                        },
+                        {
+                            "name": "LeftHand",
+                            "translateFrame": [
+                                {
+                                    "duration": 22,
+                                    "x": 0.32,
+                                    "y": 1.1
+                                }
+                            ],
+                            "rotateFrame": [
+                                {
+                                    "duration": 12,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 10,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0,
+                                    "rotate": -43.84
+                                }
+                            ]
+                        },
+                        {
+                            "name": "RightArm",
+                            "rotateFrame": [
+                                {
+                                    "duration": 12,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 10,
+                                    "tweenEasing": 0,
+                                    "rotate": 25.41
+                                },
+                                {
+                                    "duration": 0,
+                                    "rotate": 86.94
+                                }
+                            ]
+                        },
+                        {
+                            "name": "RightForearm",
+                            "rotateFrame": [
+                                {
+                                    "duration": 12,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 10,
+                                    "rotate": 58.95
+                                }
+                            ]
+                        },
+                        {
+                            "name": "RightHand",
+                            "rotateFrame": [
+                                {
+                                    "duration": 12,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 10,
+                                    "tweenEasing": 0,
+                                    "rotate": 38.65
+                                },
+                                {
+                                    "duration": 0,
+                                    "rotate": -3.98
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "duration": 68,
+                    "playTimes": 0,
+                    "name": "throw",
+                    "bone": [
+                        {
+                            "name": "LeftArm",
+                            "rotateFrame": [
+                                {
+                                    "duration": 12,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 30,
+                                    "tweenEasing": 0,
+                                    "rotate": 39
+                                },
+                                {
+                                    "duration": 10,
+                                    "tweenEasing": 0,
+                                    "rotate": 140.73
+                                },
+                                {
+                                    "duration": 16,
+                                    "rotate": -0.55
+                                }
+                            ]
+                        },
+                        {
+                            "name": "LeftForearm",
+                            "rotateFrame": [
+                                {
+                                    "duration": 43
+                                },
+                                {
+                                    "duration": 25,
+                                    "rotate": -70.37
+                                }
+                            ]
+                        },
+                        {
+                            "name": "LeftHand",
+                            "rotateFrame": [
+                                {
+                                    "duration": 43
+                                },
+                                {
+                                    "duration": 25,
+                                    "rotate": -25.58
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Knife",
+                            "translateFrame": [
+                                {
+                                    "duration": 40,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "x": 5.51,
+                                    "y": -0.31
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "x": 100.63,
+                                    "y": -74.18
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "x": 326.02,
+                                    "y": -35.83
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "x": 495.27,
+                                    "y": 192.53
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "x": 956.58,
+                                    "y": 438.37
+                                },
+                                {
+                                    "duration": 5,
+                                    "tweenEasing": 0,
+                                    "x": 965.23,
+                                    "y": 1224.14
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "x": 1635.08,
+                                    "y": 1522.27
+                                },
+                                {
+                                    "duration": 6,
+                                    "tweenEasing": 0,
+                                    "x": 2295.36,
+                                    "y": 1952.72
+                                },
+                                {
+                                    "duration": 0,
+                                    "x": 2488.76,
+                                    "y": 2168.49
+                                }
+                            ],
+                            "rotateFrame": [
+                                {
+                                    "duration": 40,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "rotate": -53.25
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "rotate": 4.83
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "rotate": -76.54
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "rotate": -98.7
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "rotate": -94.3
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "rotate": -94.3
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "rotate": 160.71
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "rotate": 91.53
+                                },
+                                {
+                                    "duration": 9,
+                                    "rotate": -68.3
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "hurray"
+                }
+            ]
+        }
+    ]
+}
